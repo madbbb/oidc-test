@@ -5,7 +5,7 @@ const clients = [
     client_id: 'test-client',
     client_secret: 'test-secret',
     grant_types: ['authorization_code'],
-    redirect_uris: ['http://localhost:3000/callback'],
+    redirect_uris: ['http://localhost:3000/auth/nhs-callback'],
   },
 ];
 
